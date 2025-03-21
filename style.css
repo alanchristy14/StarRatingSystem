@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .movie-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating {
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #ccc;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .star:hover,
+  .star.active {
+    color: #FFD700;
+    transform: scale(1.2);
+  }
+  
+  .average-rating {
+    font-weight: bold;
+  }
